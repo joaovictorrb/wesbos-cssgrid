@@ -1,0 +1,14 @@
+{
+  "name": "wesbos-cssgrid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html,. **/*.js' --directory/index.html --port 7777"
+  },
+  "repository": "https://github.com/joaovictorrb/wesbos-cssgrid.git",
+  "author": "joaovictorrb <joaov.rbrum@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.14"
+  }
+}
